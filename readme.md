@@ -7,5 +7,11 @@
   This means we have to convert the paper PDF into text and add that to the prompt.  This makes prompt authoring more problematic as information is lost/corrupted during the conversion.
 
 # Challenges
-  We also wanted to show a hierarchical graph highlighting the top N concepts from the paper and how the user can traverse through the graph to learn various concepts either breath wise or depth wise.
+  We also wanted to show a hierarchical graph highlighting the top N concepts from the paper and how the user can traverse through the graph to learn various concepts either breath wise or depth wise.  However, going from text to graph proved challenging from an api standpoint.  Several strategies were attempted
+    Stability ai - did not translate to hierarchy images cleanly - text was garbled
+    Runway       - no api apparent
+    Latex        - this was promising, but ran out of time
+
+  
+      
   
